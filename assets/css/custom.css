@@ -1,0 +1,14 @@
+
+table {
+    font-size: 14px;
+    text-align: center;
+}
+
+td.tt,th.tt {
+    padding : 0;
+    vertical align : middle;
+    text-align: center;
+}
+table .head{
+    background-color: #bbbbbb;
+}
