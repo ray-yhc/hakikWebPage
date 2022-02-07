@@ -274,7 +274,7 @@ input, select, textarea {
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(255, 255, 255, 0.6);
 		}
 
 	h2 {
@@ -354,7 +354,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+		border-bottom: solid 2px rgba(255, 255, 255, 0.6);
 		margin: 2.5em 0;
 	}
 
@@ -2665,6 +2665,7 @@ input, select, textarea {
 	ul.contact {
 		list-style: none;
 		padding: 0;
+		text-align : left;
 	}
 
 		ul.contact li {
@@ -2819,7 +2820,7 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(255, 255, 255, 0.6);
 		}
 
 		table tfoot {
@@ -3080,7 +3081,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-        background-color: #e5d8b440;
+        background-color: #e5d8b496;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3296,7 +3297,7 @@ input, select, textarea {
 		}
 
 		#menu h2 {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(255, 255, 255, 0.6);
 			padding-bottom: 1em;
 		}
 
@@ -3389,7 +3390,6 @@ input, select, textarea {
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
-            padding-top: 15em;
 		}
 
 		#banner .logo {
@@ -3435,7 +3435,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(255, 255, 255, 0.6);
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
@@ -3471,13 +3471,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #ffffff;
-				background-image: url(../../images/bg.png);
-/*				background-image: url(../../images/bg.png);*/
-/*				background-image: linear-gradient(to top, #7a66278a, #443f31bf), url(../../images/bg.png); */
-				background-size: cover, auto;
-                background-repeat: no-repeat;
-                background-position: top, center;
+				background-color: #ffcc00;
 				margin-bottom: -6.5em;
 			}
 
@@ -3499,7 +3493,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 0.25em 2em ;
+				padding: 2em 2em 0.25em 2em ;
 				margin-bottom: -2.5em;
 			}
 
@@ -3565,7 +3559,7 @@ input, select, textarea {
 		}
 
 		#wrapper > header h2 {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(255, 255, 255, 0.6);
 			font-size: 2em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
@@ -3850,6 +3844,7 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight.style2 {
+			    background-image: linear-gradient(to top, rgb(209 174 174 / 63%), rgb(131 115 115 / 80%)),url(../../images/pic02.jpg) ;
 			}
 
 /*				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {

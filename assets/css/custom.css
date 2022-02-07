@@ -1,14 +1,27 @@
+/* Title */
+    #title{
+        padding: 9em 0 12.25em 0;
+        background-color: #ffffff;
+        background-image: url(../../images/bg.png);
+        background-size: cover, auto;
+        background-repeat: no-repeat;
+        background-position: top, center;
+    }
+/* Table */
+    table {
+        font-size: 14px;
+        text-align: center;
+    }
 
-table {
-    font-size: 14px;
-    text-align: center;
-}
+    td.tt,th.tt {
+        padding : 0;
+        vertical align : middle;
+        text-align: center;
+    }
+    table .head{
+        background-color: #bbbbbb;
+    }
 
-td.tt,th.tt {
-    padding : 0;
-    vertical align : middle;
-    text-align: center;
-}
-table .head{
-    background-color: #bbbbbb;
-}
+
+/**/
+/**/
