@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3833b488-421f-4313-b9c1-a7f4d926d962" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bulma/bulma-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bulma/bulma-rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bulma/bulma-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bulma/bulma.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bulma/bulma.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bulma/bulma.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +48,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js/bootstrap" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js/bootstrap" />
+      <recent name="$PROJECT_DIR$/assets/css/bootstrap" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/css" />
     </key>
