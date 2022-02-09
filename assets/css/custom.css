@@ -1,3 +1,14 @@
+/* menu */
+    .offcanvas{
+        max-width : 80%
+    }
+    #menu .inner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        top: 0;
+    }
+
 /* Title */
     #title{
         padding: 9em 0 12.25em 0;
