@@ -7,6 +7,11 @@
         background-repeat: no-repeat;
         background-position: top, center;
     }
+/* Icons */
+    .icon.fa-youtube:before  {
+        color : #ff0000;
+    }
+
 /* Table */
     table {
         font-size: 14px;
@@ -23,6 +28,47 @@
     }
 
 
+/* style0 : 홍보 */
+    .wrapper.spotlight.style0 {
+    }
+
+    .wrapper.spotlight.style0 h2.major{
+        border-bottom: solid 1px rgb(169 169 169);
+        padding-bottom : 0.5em
+    }
+    .wrapper.spotlight.style0 .yt{
+        padding-bottom : 0;
+    }
+/* style1 : 교회 */
+    .wrapper.spotlight.style1 {
+        color : white;
+    }
+    .wrapper.spotlight.style1 h2.major{
+        color : white;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.6)
+        padding-bottom : 0.5em
+    }
+/* style2 : 청년부 */
+    @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+    .wrapper.spotlight.style2 p{
+        line-height: 30px;
+        font-weight: 400;
+    }
+    .we {
+     font-family: 'Nanum Pen Script', cursive;
+    font-weight: 900;
+    font-size: 300%;
+    vertical-align: middle;
+    }
+
+
+
+/*Youtube frame*/
+    .yt-frame{
+        height : 40vh;
+    }
+
 /* Motto */
     #motto {
     }
@@ -30,8 +76,5 @@
     #motto strong{
     }
 
-/*Youtube frame*/
-    .yt-frame{
-        height : 40vh;
-    }
+
 /**/
