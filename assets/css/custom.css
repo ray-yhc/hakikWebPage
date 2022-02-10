@@ -28,6 +28,15 @@
         text-align: left;
     }
 
+    #menu div.logoImg{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    #menu div.logoImg img{
+        width: 50%;
+    }
+
 /* Title */
     #title{
         padding: 9em 0 4em 0;
@@ -58,22 +67,6 @@
     .icon.fa-youtube:before  {
         color : #ff0000;
     }
-
-/* Table */
-    table {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    td.tt,th.tt {
-        padding : 0;
-        vertical align : middle;
-        text-align: center;
-    }
-    table .head{
-        background-color: #bbbbbb;
-    }
-
 
 /* style0 : 홍보 */
     .wrapper.spotlight.style0 {
@@ -108,6 +101,22 @@
     font-size: 300%;
     vertical-align: middle;
     }
+/* style3 */
+    /* Table */
+        table {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        td.tt,th.tt {
+            padding : 0;
+            vertical align : middle;
+            text-align: center;
+        }
+        table .head{
+            background-color: #bbbbbb;
+        }
+
 
 /* style4 */
     .wrapper.spotlight.style4 li{

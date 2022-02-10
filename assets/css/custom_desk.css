@@ -1,0 +1,57 @@
+/* imsii for test */
+	body {
+    }
+
+/* page */
+    .wrapper {
+        margin: 0;
+    }
+    @media screen and (max-width: 980px){
+        .wrapper:before {
+            top: 0;
+        }
+        @media screen and (max-width: 980px)
+        .wrapper:before, .wrapper:after {
+            height: 0;
+        }
+        .wrapper{
+        margin: 0;
+        }
+    }
+
+/* Title */
+    @media screen and (max-width: 1680px) {
+        #title{
+        padding: 13em 0;
+        max-width: 956px;
+        margin: auto;
+    }
+    @media screen and (max-width: 1280px) {
+        #title{
+        max-width: 880px;
+        }
+    }
+
+    @media screen and (max-width: 1680px){
+        #banner {
+                padding: 1em 5em;
+        }
+    }
+/* style0 */
+    div#cardnews{
+        max-width : 500px;
+    }
+
+    .yt-frame {
+        height: 400px;
+        max-width: 700px;
+    }
+/* style3 */
+
+    /* Table */
+        table {
+            width: 70%;
+            margin: auto;
+        }
+/**/
+/**/
