@@ -10,6 +10,39 @@
         font-size: 1.2em;
         line-height: 1.3em;
     }
+
+/* page */
+    .wrapper {
+        margin: 0;
+    }
+    .wrapper:before {
+        left: 0;
+        top: 0;
+    }
+    @media screen and (max-width: 980px){
+        .wrapper:before {
+            top: 0;
+        }
+        .wrapper:before, .wrapper:after {
+            height: 0;
+        }
+        .wrapper{
+        margin: 0;
+        }
+    }
+    @media screen and (max-width: 736px){
+        .wrapper:before {
+            top: 0;
+        }
+        .wrapper:before, .wrapper:after {
+            height: 0;
+        }
+        .wrapper{
+        margin: 0;
+        }
+    }
+}
+
 /* menu */
     #menu .inner {
         position: fixed;
@@ -59,7 +92,8 @@
     }
     #banner {
         background-color: #ffffff;
-        margin-bottom : -0.1em
+        margin-bottom : -0.1em;
+        padding-bottom : 1em;
     }
 
     #banner h2{
@@ -72,6 +106,7 @@
     }
     #banner li{
         line-height : 1.4em;
+        cursor: pointer;
     }
 /* Icons */
     .icon.fa-youtube:before  {

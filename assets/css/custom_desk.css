@@ -2,22 +2,6 @@
 	body {
     }
 
-/* page */
-    .wrapper {
-        margin: 0;
-    }
-    @media screen and (max-width: 980px){
-        .wrapper:before {
-            top: 0;
-        }
-        @media screen and (max-width: 980px)
-        .wrapper:before, .wrapper:after {
-            height: 0;
-        }
-        .wrapper{
-        margin: 0;
-        }
-    }
 
 /* Title */
     @media screen and (max-width: 1680px) {
