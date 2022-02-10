@@ -39,13 +39,23 @@
 
 /* Title */
     #title{
-        padding: 9em 0 4em 0;
-        background-color: #ffffff;
-        background-image: url(../../images/bg.png);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: top, center;
-        margin-bottom : -0.1em
+            padding: 10em 0;
+            background-color: #ffffff;
+            background-image: url(../../images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top, center;
+            margin-bottom : -0.1em
+    }
+    @media screen and (max-width: 600px){
+        #title{
+            padding: 9em 0 ;
+        }
+    }
+    @media screen and (max-width: 480px){
+        #title{
+            padding: 9em 0 4em 0;
+        }
     }
     #banner {
         background-color: #ffffff;
