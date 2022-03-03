@@ -272,6 +272,7 @@
                     </ul>
                     <a onclick="window.open('https://hakik.net/page/sub1_2.php')" class="special">학익교회 예배안내
                         &nbsp&nbsp </a>
+                    <div id="map" ></div>
                 </div>
             </div>
         </section>
@@ -306,6 +307,47 @@
 <script src="assets/js/main.js"></script>
 <!--	-->
 <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+
+<!--    -->
+<script>
+
+var HOME_PATH = window.HOME_PATH || '.';
+
+var hakik = new naver.maps.LatLng(37.4465509,126.658086),
+    map = new naver.maps.Map('map', {
+        center: hakik.destinationPoint(0, 500),
+        zoom: 15
+    }),
+    marker = new naver.maps.Marker({
+        map: map,
+        position: hakik
+    });
+
+var contentString = [
+        '<div class="iw_inner">',
+        '   <h3>학익교회</h3>',
+        '   <p>인천 미추홀구 재넘이길123번길 45<br />',
+        '       <img src="'+ HOME_PATH +'/img/example/hi-seoul.jpg" width="55" height="55" alt="서울시청" class="thumb" /><br />',
+        '       02-120 | 공공,사회기관 &gt; 특별,광역시청<br />',
+        '       <a href="http://www.seoul.go.kr" target="_blank">www.seoul.go.kr/</a>',
+        '   </p>',
+        '</div>'
+    ].join('');
+
+var infowindow = new naver.maps.InfoWindow({
+    content: contentString
+});
+
+naver.maps.Event.addListener(marker, "click", function(e) {
+    if (infowindow.getMap()) {
+        infowindow.close();
+    } else {
+        infowindow.open(map, marker);
+    }
+});
+
+infowindow.open(map, marker);
+</script>
 
 
 </body>
